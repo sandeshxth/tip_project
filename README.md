@@ -26,11 +26,21 @@ The objective of this project is to develop a robust and efficient machine learn
   - **Class Distribution:** The dataset has a class imbalance problem with a significantly lower number of fraudulent transactions compared to legitimate ones.
   - **Feature Types:** Features include categorical variables, numerical features, and possibly timestamps.
 
-- **Class Distribution:**                                                    **Feature Types and Missing Values:** 
-  <p float="left">
-    <img src="class_distribution_image.png" alt="Class Distribution" width="45%" />
-    <img src="feature_types_and_missing_values_image.png" alt="Feature Types and Missing Values" width="45%" />
-  </p>
+### Class Distribution
+
+<p float="left">
+  <img src="class_distribution_image.png" alt="Class Distribution" width="45%" />
+</p>
+
+This image illustrates the distribution of classes (fraudulent vs. non-fraudulent transactions) in the dataset.
+
+### Feature Types and Missing Values
+
+<p float="left">
+  <img src="feature_types_and_missing_values_image.png" alt="Feature Types and Missing Values" width="45%" />
+</p>
+
+This image provides insights into the types of features present in the dataset and highlights any missing values.
 
 
 
