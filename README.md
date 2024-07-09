@@ -29,7 +29,7 @@ The objective of this project is to develop a robust and efficient machine learn
 ### Class Distribution
 
 <p float="left">
-  <img src="class_distribution_image.png" alt="Class Distribution" width="45%" />
+  <img src="Images/class_distribution_image.png" alt="Class Distribution" width="45%" />
 </p>
 
 This image illustrates the distribution of classes (fraudulent vs. non-fraudulent transactions) in the dataset.
@@ -37,7 +37,7 @@ This image illustrates the distribution of classes (fraudulent vs. non-fraudulen
 ### Feature Types and Missing Values
 
 <p float="left">
-  <img src="feature_types_and_missing_values_image.png" alt="Feature Types and Missing Values" width="45%" />
+  <img src="Images/feature_types_and_missing_values_image.png" alt="Feature Types and Missing Values" width="45%" />
 </p>
 
 This image provides insights into the types of features present in the dataset and highlights any missing values. There were no missing values found in the provided dataset.
@@ -58,12 +58,12 @@ This image provides insights into the types of features present in the dataset a
 ### Visualizations
 
 <p float="left">
-  <img src="category.png" alt="Fraud Rate per Category" width="45%" />
-  <img src="timeofday.png" alt="Fraud Rate by Time of Day" width="45%" />
+  <img src="Images/category.png" alt="Fraud Rate per Category" width="45%" />
+  <img src="Images/timeofday.png" alt="Fraud Rate by Time of Day" width="45%" />
 </p>
 
 <p align="center">
-  <img src="dayofweek.png" alt="Fraud Rate by Day of Week" width="65%" />
+  <img src="Images/dayofweek.png" alt="Fraud Rate by Day of Week" width="65%" />
 </p>
 
 
