@@ -40,7 +40,22 @@ This image illustrates the distribution of classes (fraudulent vs. non-fraudulen
   <img src="feature_types_and_missing_values_image.png" alt="Feature Types and Missing Values" width="45%" />
 </p>
 
-This image provides insights into the types of features present in the dataset and highlights any missing values.
+This image provides insights into the types of features present in the dataset and highlights any missing values. There were no missing values found.
+
+#### 2.2 Data Visualization
+- **Tasks:**
+  - Created visualizations to identify patterns or anomalies in the data.
+  - Compared features between fraudulent and non-fraudulent transactions.
+
+- **Details:**
+  - **Distribution of Transaction Amounts:** Visualized the differences in transaction amounts between fraudulent and non-fraudulent transactions.
+  - **Correlation Analysis:** Explored the relationships between different features and their correlation with the target variable.
+
+- **Images:**
+  <p float="left">
+    <img src="transaction_amount_distribution_image.png" alt="Transaction Amount Distribution" width="45%" />
+    <img src="correlation_heatmap_image.png" alt="Correlation Heatmap" width="45%" />
+  </p>
 
 
 
