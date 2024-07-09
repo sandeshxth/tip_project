@@ -13,7 +13,7 @@ The objective of this project is to develop a robust and efficient machine learn
   - Initial observations about the data structure, missing values, and data types.
 
 - **Initial exploration of the dataset 'fraudTest.csv':** 
-  ![Dataset Overview](dataset_overview_image.png)
+  ![Dataset Overview](Images/dataset_overview_image.png)
 
 ### Exploratory Data Analysis (EDA)
 
