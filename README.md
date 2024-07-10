@@ -87,6 +87,26 @@ SMOTE (Synthetic Minority Over-sampling Technique) is used to address class imba
 2. **Find Nearest Neighbors:** Identify the k-nearest neighbors for each selected instance.
 3. **Generate Synthetic Samples:** Create new samples by interpolating between the selected instance and its neighbors.
 
+### Why Use SMOTE?
+
+In many real-world datasets, especially in fields like fraud detection, healthcare, and rare event prediction, the class distribution is often imbalanced. This means that the number of instances of one class (e.g., legitimate transactions) significantly outweighs the number of instances of the other class (e.g., fraudulent transactions). This imbalance can cause several problems for machine learning models:
+
+1. **Bias Towards Majority Class:** Models tend to be biased towards the majority class, predicting the majority class more often and ignoring the minority class.
+2. **Poor Performance on Minority Class:** The model's performance on the minority class, which is often the class of interest (e.g., fraud cases), is poor. Metrics like precision, recall, and F1-score for the minority class are usually low.
+3. **Overfitting:** Simply duplicating the minority class instances (over-sampling) can lead to overfitting, where the model learns the noise in the minority class rather than its true characteristics.
+
+### Cost-Sensitive Learning
+
+Cost-sensitive learning is a technique used to handle imbalanced datasets by assigning different misclassification costs to different classes. This approach penalizes the model more for misclassifying instances of the minority class, encouraging the model to pay more attention to the minority class and improving its performance on that class.
+
+#### Key Steps in Cost-Sensitive Learning:
+1. **Define Misclassification Costs:** Assign higher costs to misclassifying minority class instances and lower costs to misclassifying majority class instances.
+2. **Modify the Learning Algorithm:** Adjust the learning algorithm to minimize the total misclassification cost rather than the total number of misclassifications.
+3. **Train the Model:** Train the model using the modified algorithm, which now takes misclassification costs into account.
+
+
+
+
 
 
 
