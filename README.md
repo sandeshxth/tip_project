@@ -67,6 +67,30 @@ This image provides insights into the types of features present in the dataset a
 </p>
 
 
+#### Handling Missing Data
+- **Tasks:**
+  - Identified and handled missing values in the dataset.
+  - Dropped non-numeric or irrelevant columns.
+  - Encoded categorical variables.
+
+#### Applying SMOTE
+SMOTE (Synthetic Minority Over-sampling Technique) is used to address class imbalance in datasets by generating synthetic samples for the minority class. This helps balance the class distribution, improving the performance of machine learning models in detecting rare events, such as fraudulent transactions.
+- **Tasks:**
+  - Applied SMOTE to address class imbalance.
+<p float="left">
+  <img src="Images/aftersmote.png" alt="Data Balanced after performing smote" width="45%" />
+  <img src="Images/smotegraph.png" alt="Fraud Rate by Time of Day" width="45%" />
+</p>
+
+#### Key Steps in SMOTE:
+1. **Select Minority Instances:** Randomly choose instances from the minority class.
+2. **Find Nearest Neighbors:** Identify the k-nearest neighbors for each selected instance.
+3. **Generate Synthetic Samples:** Create new samples by interpolating between the selected instance and its neighbors.
+
+
+
+
+
 
 
 
